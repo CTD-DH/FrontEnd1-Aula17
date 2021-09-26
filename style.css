@@ -1,0 +1,36 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column;
+    gap: 30px; */
+    align-items: center;
+
+}
+
+
+main section{
+
+    height: 300px;
+    width: 300px;
+
+}
+
+main section:nth-child(1){
+    background-color: pink;
+
+}
+
+main section:nth-child(2){
+    background-color: green;
+}
+
+main section:nth-child(3){
+    background-color: blue;
+}
